@@ -1,2 +1,2 @@
 # node_app.sh
-A simple bash script to create the files and directories needed for a basic node app; includding snippits for starting code inside the files.
+A simple bash script to create the files and directories needed for a basic node app; includding snippits for starting code inside the files. The script was designed to be ran inside a bash terminal in vs code, however, for the file to be executable across all directories I found the best solution was to use "chmod u+x node_app.sh". The script will then be able to be called using some from of "../node_app.sh" replacing the starting path with the files path realative to your current directory.
